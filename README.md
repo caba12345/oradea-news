@@ -13,11 +13,11 @@ Digest automat de știri despre finanțări nerambursabile și business pentru u
 
 ## 🚨 Alerte active
 
-- **Start-Up Nation Sesiunea 2 (Pilonul I)**: anunțată oficial, FĂRĂ dată la 7 iul 2026. Când apare data → înscriere la cursul de 40h pe minimis.imm.gov.ro ÎN PRIMA ZI.
+- **Start-Up Nation Sesiunea 2 (Pilonul I)**: anunțată oficial, FĂRĂ dată la 6 iul 2026. Când apare data → înscriere la cursul de 40h pe minimis.imm.gov.ro ÎN PRIMA ZI.
 
 ## 📰 Digesturi (cele mai noi sus)
 
-_(se completează automat de la prima rulare)_
+- [2026-07-06](news/2026-07-06.md) — 🟠 Nucleo Ventures + Bright Labs devenit program mereu deschis
 
 ## Ce urmărește radarul
 

@@ -4,6 +4,34 @@
 // Itemi noi se ADAUGĂ LA ÎNCEPUTUL listei. Dedup după url.
 window.RADAR_ITEMS = [
   {
+    "date": "2026-07-06", "sev": "portocaliu", "cat": "oradea",
+    "title": "UPDATE: Bright Labs a devenit „Startup Fortress” — program mereu deschis, nu pe cohorte fixe",
+    "summary": "De la Demo Day-ul ediției 2025 (octombrie), Make IT in Oradea a transformat Bright Labs dintr-un accelerator cu sesiuni fixe într-un program continuu: 3 luni de mentorat, cazare + coworking gratuite, grant de până la 5.000 EUR și acces la investiții sindicalizate de 100.000-300.000 EUR.",
+    "why": "Poți depune aplicația ORICÂND, fără să aștepți o fereastră de înscriere — utile ca sprijin în paralel cu pregătirea dosarului de Start-Up Nation.",
+    "url": "https://www.romania-insider.com/startup-fortress-oradea-oct-2025", "source": "Romania Insider / brightlabs.build", "pub": "2025-10"
+  },
+  {
+    "date": "2026-07-06", "sev": "portocaliu", "cat": "finantari",
+    "title": "Nucleo Ventures (ex-Fortech Ventures): fond de 34 mil. EUR pentru Nord-Vest, cu componentă de grant pre-seed 1,7 mil. EUR",
+    "summary": "Lansat pe 23 iunie la Cluj-Napoca, cu 23,5 mil. EUR de la ADR Nord-Vest, fondul finanțează startup-uri din regiune (inclusiv Bihor) cu tichete de 150.000-1,4 mil. EUR; componenta de grant e dedicată validării ideilor în stadiu pre-seed, fără cedare de acțiuni, prin rețeaua care include Make IT in Oradea.",
+    "why": "Grantul pre-seed nu cere firmă cu istoric și nu diluează acțiuni — o rută complementară la Start-Up Nation pentru validarea ideii de IoT înainte de a cere cei 250.000 lei.",
+    "url": "https://www.forbes.ro/fortech-ventures-devine-nucleo-ventures-si-lanseaza-un-fond-de-34-de-milioane-de-euro-pentru-regiunea-nord-vest-507982", "source": "Forbes.ro / ADR Nord-Vest", "pub": "2026-06-23"
+  },
+  {
+    "date": "2026-07-06", "sev": "galben", "cat": "finantari",
+    "title": "PoCIDIF Acțiunea 2.1: granturi 200.000-3.000.000 EUR pentru IMM-uri cu produse AI/IoT/robotică — depunere până 30 sept 2026",
+    "summary": "Sesiunea de depunere s-a deschis pe 30 iunie 2026 în MySMIS2021 (termen 30 septembrie 2026, ora 17:00). Grant minim redus la 200.000 EUR, maxim 3 mil. EUR pentru hardware inovator / 1,5 mil. EUR pentru software, pentru IMM-uri cu cod CAEN ICT ce dezvoltă produse pe bază de AI, IoT, AR/VR, robotică.",
+    "why": "Se potrivește exact cu ideea ta de dispozitive IoT + platformă de date, dar cofinanțarea și pragul minim de 200.000 EUR fac programul greu accesibil unui SRL nou, fără istoric — de urmărit pentru o etapă ulterioară, după Start-Up Nation.",
+    "url": "https://startupcafe.ro/granturi-imm-2026-200000-3-milioane-eur-proiecte-inteligenta-artificiala-roboti-tehnologii-varf-perioada-depunere-102814", "source": "StartupCafe / mfe.gov.ro (POCIDIF)", "pub": "2026-06-30"
+  },
+  {
+    "date": "2026-07-06", "sev": "verde", "cat": "finantari",
+    "title": "PR Nord-Vest apel 131.H (Crowd4SME-NW): 60.000 EUR pentru microîntreprinderi — dar doar cele deja selectate prin proiectul pilot",
+    "summary": "Apelul PRNV/2026/131.H/1 e deschis în MySMIS între 22 iunie și 10 iulie 2026, cu o alocare totală de doar 60.000 EUR (51.000 EUR FEDR + 9.000 EUR cofinanțare), destinat exclusiv microîntreprinderilor din Nord-Vest deja selectate prin proiectul „CROWDFUNDMATCH” Interreg Europe.",
+    "why": "Nu ești eligibil acum (nu ai firmă și nu ești în lotul pre-selectat) — doar context: arată că ADR Nord-Vest rulează constant apeluri mici pentru microîntreprinderi, de urmărit pentru runde viitoare mai largi.",
+    "url": "https://regionordvest.ro/en/consultare-publica-pentru-ghidul-solicitantului-131-h-sprijin-pentru-microintreprinderile-selectate-prin-proiectul-crowd4sme-nw-in-cadrul-crowdfundmatch-interreg-europe-a/", "source": "regionordvest.ro (ADR Nord-Vest)", "pub": "2026-06-22"
+  },
+  {
     "date": "2026-07-07", "sev": "portocaliu", "cat": "oradea",
     "title": "Bright Labs (Make IT in Oradea) — incubator activ, aplicabil fără firmă",
     "summary": "Programul de incubare din Oradea (100 de zile, mentorat, coworking, cazare + alocație, istoric de granturi de 5.000 EUR) rulează recurent; sesiunea curentă de aplicații e de verificat pe site.",
