@@ -40,7 +40,14 @@
   .dot{width:9px; height:9px; border-radius:50%; flex:none}
   .dot.rosu{background:var(--rosu)} .dot.portocaliu{background:var(--portocaliu)}
   .dot.galben{background:var(--galben)} .dot.verde{background:var(--verde)}
-  .day{position:sticky; top:0; z-index:5; background:var(--bg); padding:14px 0 8px; margin-top:14px; font-size:.8rem; font-weight:700; letter-spacing:.08em; text-transform:uppercase; color:var(--muted); border-bottom:1px solid var(--border)}
+  .day{position:sticky; top:0; z-index:5; display:flex; align-items:center; gap:10px; width:100%; min-height:44px; background:var(--bg); border:0; border-bottom:1px solid var(--border); padding:14px 2px 8px; margin-top:14px; font:inherit; font-size:.8rem; font-weight:700; letter-spacing:.08em; text-transform:uppercase; color:var(--muted); text-align:left; cursor:pointer}
+  .day:focus-visible{outline:2.5px solid var(--portocaliu); outline-offset:2px}
+  .day .chev{width:12px; height:12px; flex:none; transition:transform .18s}
+  .day.open .chev{transform:rotate(90deg)}
+  .day .cnt{font-weight:500; text-transform:none; letter-spacing:0; opacity:.75}
+  .day .minidots{display:flex; align-items:center; gap:5px; margin-left:auto; letter-spacing:0; font-size:.74rem}
+  .day .minidots .dot{width:8px; height:8px}
+  .day .minidots b{font-weight:600; margin-right:4px}
   .item{display:block; background:var(--surface); border:1px solid var(--border); border-radius:12px; padding:12px 14px 12px 16px; margin:10px 0; position:relative; text-decoration:none; transition:background .15s}
   .item::before{content:""; position:absolute; left:0; top:10px; bottom:10px; width:3.5px; border-radius:4px}
   .item.rosu::before{background:var(--rosu)} .item.portocaliu::before{background:var(--portocaliu)}
@@ -108,12 +115,29 @@ function render(){
   const show = items.filter(i=>sevOn.has(i.sev) && catOn.has(i.cat));
   if(!show.length){ list.innerHTML = '<div class="empty">Nimic pe filtrele curente.</div>'; }
   const days = [...new Set(show.map(i=>i.date))].sort().reverse();
-  days.forEach(day=>{
-    const h = document.createElement('div'); h.className='day'; h.textContent = dayLabel(day);
-    list.appendChild(h);
-    show.filter(i=>i.date===day)
-        .sort((a,b)=> (sevRank[a.sev]-sevRank[b.sev]) || String(b.pub||'').localeCompare(String(a.pub||'')))
-        .forEach(i=>{
+  let dayState = {};
+  try{ dayState = JSON.parse(localStorage.getItem('radar-days')||'{}'); }catch(e){}
+  days.forEach((day, idx)=>{
+    const dayItems = show.filter(i=>i.date===day)
+        .sort((a,b)=> (sevRank[a.sev]-sevRank[b.sev]) || String(b.pub||'').localeCompare(String(a.pub||'')));
+    const open = (day in dayState) ? dayState[day] : (idx === 0);   // ziua cea mai nouă: deschisă
+    const dots = SEV.map(([k])=>{
+      const n = dayItems.filter(i=>i.sev===k).length;
+      return n ? `<span class="dot ${k}" aria-hidden="true"></span><b>${n}</b>` : '';
+    }).join('');
+    const h = document.createElement('button');
+    h.className = 'day'+(open?' open':''); h.setAttribute('aria-expanded', open);
+    h.innerHTML = `<svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg>
+      <span>${dayLabel(day)}</span><span class="cnt">${dayItems.length} știri</span><span class="minidots">${dots}</span>`;
+    const wrap = document.createElement('div'); wrap.hidden = !open;
+    h.onclick = ()=>{
+      const nowOpen = wrap.hidden;
+      wrap.hidden = !nowOpen; h.classList.toggle('open', nowOpen); h.setAttribute('aria-expanded', nowOpen);
+      dayState[day] = nowOpen;
+      try{ localStorage.setItem('radar-days', JSON.stringify(dayState)); }catch(e){}
+    };
+    list.appendChild(h); list.appendChild(wrap);
+    dayItems.forEach(i=>{
       const a = document.createElement('a');
       a.className = 'item '+i.sev; a.href = i.url; a.target = '_blank'; a.rel = 'noopener';
       a.innerHTML = `
@@ -124,7 +148,7 @@ function render(){
         <div class="summary">${i.summary}</div>
         <span class="why">${i.why}</span>
         <div class="src">${i.source||''}</div>`;
-      list.appendChild(a);
+      wrap.appendChild(a);
     });
   });
   const last = items.length ? items.map(i=>i.date).sort().slice(-1)[0] : null;
