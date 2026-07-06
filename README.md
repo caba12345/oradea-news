@@ -1,6 +1,15 @@
 # 📡 Radar Finanțări Oradea
 
-Digest automat de știri despre finanțări și business pentru Paul — rulează **luni, miercuri și vineri dimineața** (routine Claude în cloud). Fiecare rulare adaugă un fișier în `news/` și actualizează acest index. Folderul de pe Desktop se sincronizează automat când laptopul e pornit.
+Digest automat de știri despre finanțări și business pentru Paul — rulează **luni, miercuri și vineri dimineața** (routine Claude în cloud). Fiecare rulare adaugă un fișier în `news/`, actualizează **dashboard-ul** (`docs/index.html` + `docs/data.js`) și acest index. Folderul de pe Desktop se sincronizează automat când laptopul e pornit.
+
+**📊 Dashboard**: deschide `docs/index.html` (dublu-click) — știrile colorate după importanță, cu filtre.
+
+## Nivelurile de importanță
+
+- 🔴 **Foarte important** — acțiune imediată: dată anunțată pentru Sesiunea 2 SUN, apel deschis unde ești eligibil cu deadline, înscrieri deschise la Bright Labs/Innotech
+- 🟠 **Important** — schimbare confirmată care îți afectează planul: ordin/ghid nou, calendar cu date concrete, buget aprobat
+- 🟡 **De urmărit** — intenții fără dată, consultări publice, semnale credibile
+- 🟢 **Context** — util de știut, fără acțiune necesară
 
 ## 🚨 Alerte active
 
