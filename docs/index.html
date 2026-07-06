@@ -3,109 +3,144 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>📡 Radar Finanțări Oradea</title>
+<title>Radar Finanțări Oradea</title>
 <style>
   :root{
-    --bg:#f6f7f9; --card:#ffffff; --text:#1a1d21; --muted:#5c6470; --border:#e3e6ea;
-    --rosu:#d92d20; --portocaliu:#ef8100; --galben:#c9a800; --verde:#12905e;
+    --bg:#fafafa; --surface:#ffffff; --text:#1c1f23; --muted:#606874; --border:#e4e7eb;
+    --hover:#f2f4f6; --chipbg:#ffffff;
+    --rosu:#dc2626; --portocaliu:#c2570b; --galben:#a16207; --verde:#15803d;
+    --rosu-bg:#fef2f2; --portocaliu-bg:#fff7ed; --galben-bg:#fefce8; --verde-bg:#f0fdf4;
   }
   @media (prefers-color-scheme: dark){
-    :root{ --bg:#101215; --card:#1a1e23; --text:#e8eaed; --muted:#9aa3ad; --border:#2a2f36;
-           --galben:#e6c400; }
+    :root{
+      --bg:#0f1115; --surface:#171a20; --text:#e8eaed; --muted:#98a1ad; --border:#272c34;
+      --hover:#1d2129; --chipbg:#171a20;
+      --rosu:#f87171; --portocaliu:#fb923c; --galben:#eab308; --verde:#4ade80;
+      --rosu-bg:#2a1414; --portocaliu-bg:#271a10; --galben-bg:#252010; --verde-bg:#122117;
+    }
   }
   *{box-sizing:border-box; margin:0}
-  body{background:var(--bg); color:var(--text); font:16px/1.55 -apple-system,'Segoe UI',Roboto,sans-serif; padding:24px 16px 64px; max-width:860px; margin:0 auto}
-  h1{font-size:1.45rem; margin-bottom:4px}
-  .sub{color:var(--muted); font-size:.9rem; margin-bottom:20px}
-  .filters{display:flex; flex-wrap:wrap; gap:8px; margin-bottom:20px}
-  .chip{border:1px solid var(--border); background:var(--card); color:var(--text); border-radius:999px; padding:5px 14px; font-size:.85rem; cursor:pointer; user-select:none}
-  .chip.on{outline:2px solid currentColor}
-  .chip .dot{display:inline-block; width:9px; height:9px; border-radius:50%; margin-right:6px}
-  .card{background:var(--card); border:1px solid var(--border); border-left:5px solid var(--border); border-radius:10px; padding:14px 16px; margin-bottom:12px}
-  .card.rosu{border-left-color:var(--rosu)} .card.portocaliu{border-left-color:var(--portocaliu)}
-  .card.galben{border-left-color:var(--galben)} .card.verde{border-left-color:var(--verde)}
-  .meta{font-size:.78rem; color:var(--muted); display:flex; gap:10px; flex-wrap:wrap; margin-bottom:6px; text-transform:uppercase; letter-spacing:.03em}
-  .badge{font-weight:700}
-  .badge.rosu{color:var(--rosu)} .badge.portocaliu{color:var(--portocaliu)}
-  .badge.galben{color:var(--galben)} .badge.verde{color:var(--verde)}
-  .title{font-weight:650; margin-bottom:6px}
-  .summary{font-size:.93rem; margin-bottom:8px}
-  .why{font-size:.9rem; background:color-mix(in srgb, var(--border) 40%, transparent); border-radius:8px; padding:8px 10px; margin-bottom:8px}
-  .why b{font-weight:650}
+  html{scroll-behavior:smooth}
+  @media (prefers-reduced-motion: reduce){ html{scroll-behavior:auto} *{transition:none!important} }
+  body{background:var(--bg); color:var(--text); font:16px/1.5 -apple-system,'Segoe UI',Roboto,sans-serif; padding:20px 16px 72px; max-width:760px; margin:0 auto}
   a{color:inherit}
-  .src{font-size:.8rem; color:var(--muted)}
-  .empty{color:var(--muted); text-align:center; padding:40px 0}
-  .topbar{display:flex; align-items:center; justify-content:space-between; gap:12px; flex-wrap:wrap}
-  .refresh{border:1px solid var(--border); background:var(--card); color:var(--text); border-radius:8px; padding:8px 16px; font-size:.9rem; cursor:pointer}
-  .refresh:active{transform:scale(.97)}
+  .topbar{display:flex; align-items:center; justify-content:space-between; gap:12px; margin-bottom:2px}
+  h1{font-size:1.3rem; letter-spacing:-.01em}
+  .refresh{display:flex; align-items:center; gap:7px; min-height:44px; border:1px solid var(--border); background:var(--surface); color:var(--text); border-radius:10px; padding:8px 16px; font-size:.88rem; font-weight:500; cursor:pointer; transition:background .15s}
+  .refresh:hover{background:var(--hover)}
+  .refresh svg{width:15px; height:15px}
+  .refresh.spin svg{animation:rot .8s linear infinite}
+  @keyframes rot{to{transform:rotate(360deg)}}
+  .sub{color:var(--muted); font-size:.85rem; margin-bottom:16px}
+  .filters{display:flex; flex-wrap:wrap; gap:8px; margin-bottom:10px}
+  .chip{display:inline-flex; align-items:center; gap:7px; min-height:40px; border:1px solid var(--border); background:var(--chipbg); color:var(--muted); border-radius:999px; padding:6px 14px; font-size:.84rem; font-weight:500; cursor:pointer; user-select:none; transition:background .15s, color .15s}
+  .chip.on{color:var(--text); border-color:currentColor}
+  .chip:hover{background:var(--hover)}
+  .chip .n{font-size:.76rem; opacity:.65}
+  .dot{width:9px; height:9px; border-radius:50%; flex:none}
+  .dot.rosu{background:var(--rosu)} .dot.portocaliu{background:var(--portocaliu)}
+  .dot.galben{background:var(--galben)} .dot.verde{background:var(--verde)}
+  .day{position:sticky; top:0; z-index:5; background:var(--bg); padding:14px 0 8px; margin-top:14px; font-size:.8rem; font-weight:700; letter-spacing:.08em; text-transform:uppercase; color:var(--muted); border-bottom:1px solid var(--border)}
+  .item{display:block; background:var(--surface); border:1px solid var(--border); border-radius:12px; padding:12px 14px 12px 16px; margin:10px 0; position:relative; text-decoration:none; transition:background .15s}
+  .item::before{content:""; position:absolute; left:0; top:10px; bottom:10px; width:3.5px; border-radius:4px}
+  .item.rosu::before{background:var(--rosu)} .item.portocaliu::before{background:var(--portocaliu)}
+  .item.galben::before{background:var(--galben)} .item.verde::before{background:var(--verde)}
+  .item:hover{background:var(--hover)}
+  .item:focus-visible{outline:2.5px solid var(--portocaliu); outline-offset:2px}
+  .meta{display:flex; align-items:center; gap:8px; flex-wrap:wrap; font-size:.72rem; font-weight:600; letter-spacing:.05em; text-transform:uppercase; margin-bottom:5px}
+  .sevlbl.rosu{color:var(--rosu)} .sevlbl.portocaliu{color:var(--portocaliu)}
+  .sevlbl.galben{color:var(--galben)} .sevlbl.verde{color:var(--verde)}
+  .meta .cat, .meta .pub{color:var(--muted); font-weight:500}
+  .title{font-size:.98rem; font-weight:650; line-height:1.35; margin-bottom:4px; display:flex; gap:6px; align-items:baseline}
+  .title .ext{flex:none; width:11px; height:11px; opacity:.45; transform:translateY(1px)}
+  .summary{font-size:.88rem; color:var(--text); opacity:.9; margin-bottom:6px}
+  .why{display:inline-block; font-size:.82rem; font-weight:550; padding:3px 9px; border-radius:6px}
+  .item.rosu .why{background:var(--rosu-bg); color:var(--rosu)}
+  .item.portocaliu .why{background:var(--portocaliu-bg); color:var(--portocaliu)}
+  .item.galben .why{background:var(--galben-bg); color:var(--galben)}
+  .item.verde .why{background:var(--verde-bg); color:var(--verde)}
+  .src{font-size:.76rem; color:var(--muted); margin-top:6px}
+  .empty{color:var(--muted); text-align:center; padding:48px 0; font-size:.9rem}
 </style>
 </head>
 <body>
 <div class="topbar">
-  <h1>📡 Radar Finanțări Oradea</h1>
-  <button class="refresh" id="refreshBtn" onclick="refreshData()">🔄 Actualizează</button>
+  <h1>Radar Finanțări Oradea</h1>
+  <button class="refresh" id="refreshBtn" onclick="refreshData()" aria-label="Reîncarcă știrile de pe server">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12a9 9 0 1 1-2.64-6.36"/><polyline points="21 3 21 9 15 9"/></svg>
+    <span id="refreshTxt">Actualizează</span>
+  </button>
 </div>
 <div class="sub" id="sub">se încarcă…</div>
-<div class="filters" id="sevFilters"></div>
-<div class="filters" id="catFilters"></div>
-<div id="list"></div>
+<div class="filters" id="sevFilters" role="group" aria-label="Filtru importanță"></div>
+<div class="filters" id="catFilters" role="group" aria-label="Filtru categorie"></div>
+<main id="list"></main>
 
 <script src="data.js"></script>
 <script>
-const SEV = [
-  ["rosu","🔴 Foarte important"], ["portocaliu","🟠 Important"],
-  ["galben","🟡 De urmărit"], ["verde","🟢 Context"]
-];
-const CAT = [
-  ["sun","🚨 Start-Up Nation"], ["finantari","💰 Finanțări"],
-  ["oradea","📍 Oradea"], ["alte","📚 Alte oportunități"]
-];
+const SEV = [["rosu","Foarte important"],["portocaliu","Important"],["galben","De urmărit"],["verde","Context"]];
+const CAT = [["sun","Start-Up Nation"],["finantari","Finanțări"],["oradea","Oradea"],["alte","Alte oportunități"]];
 const sevRank = {rosu:0, portocaliu:1, galben:2, verde:3};
+const LUNI = ["ianuarie","februarie","martie","aprilie","mai","iunie","iulie","august","septembrie","octombrie","noiembrie","decembrie"];
+const ZILE = ["Duminică","Luni","Marți","Miercuri","Joi","Vineri","Sâmbătă"];
 let items = (window.RADAR_ITEMS||[]);
 let sevOn = new Set(SEV.map(s=>s[0])), catOn = new Set(CAT.map(c=>c[0]));
 
-function refreshData(){
-  const btn = document.getElementById('refreshBtn');
-  btn.disabled = true; btn.textContent = '⏳ se actualizează…';
-  const s = document.createElement('script');
-  s.src = 'data.js?t=' + Date.now();   // query nou = ocolește cache-ul CDN
-  s.onload = ()=>{ items = (window.RADAR_ITEMS||[]); render(); btn.disabled=false; btn.textContent='🔄 Actualizează'; };
-  s.onerror = ()=>{ btn.disabled=false; btn.textContent='⚠️ eroare — reîncearcă'; };
-  document.body.appendChild(s);
+function dayLabel(iso){
+  const d = new Date(iso+'T12:00:00');
+  return isNaN(d) ? iso : `${ZILE[d.getDay()]}, ${d.getDate()} ${LUNI[d.getMonth()]} ${d.getFullYear()}`;
 }
-
-function chips(el, defs, set, colorClass){
+function chips(elId, defs, set, withDot){
+  const el = document.getElementById(elId); el.innerHTML='';
   defs.forEach(([key,label])=>{
-    const c = document.createElement('span');
-    c.className = 'chip on'; c.innerHTML = label;
-    c.onclick = ()=>{ set.has(key) ? set.delete(key) : set.add(key); c.classList.toggle('on'); render(); };
-    document.getElementById(el).appendChild(c);
+    const n = items.filter(i => (withDot ? i.sev===key : i.cat===key)).length;
+    const c = document.createElement('button');
+    c.className = 'chip'+(set.has(key)?' on':''); c.setAttribute('aria-pressed', set.has(key));
+    c.innerHTML = (withDot?`<span class="dot ${key}" aria-hidden="true"></span>`:'')+`${label} <span class="n">${n}</span>`;
+    c.onclick = ()=>{ set.has(key) ? set.delete(key) : set.add(key); render(); };
+    el.appendChild(c);
   });
 }
 function render(){
+  chips('sevFilters', SEV, sevOn, true); chips('catFilters', CAT, catOn, false);
   const list = document.getElementById('list'); list.innerHTML='';
-  const show = items
-    .filter(i=>sevOn.has(i.sev) && catOn.has(i.cat))
-    .sort((a,b)=> (sevRank[a.sev]-sevRank[b.sev]) || (b.date+'' ).localeCompare(a.date));
-  if(!show.length){ list.innerHTML = '<div class="empty">Nimic pe filtrele curente.</div>'; return; }
   const sevLabel = Object.fromEntries(SEV), catLabel = Object.fromEntries(CAT);
-  show.forEach(i=>{
-    const d = document.createElement('div');
-    d.className = 'card '+i.sev;
-    d.innerHTML = `
-      <div class="meta"><span class="badge ${i.sev}">${sevLabel[i.sev]||i.sev}</span>
-        <span>${catLabel[i.cat]||i.cat}</span><span>radar: ${i.date}</span><span>publicat: ${i.pub||'?'}</span></div>
-      <div class="title">${i.title}</div>
-      <div class="summary">${i.summary}</div>
-      <div class="why"><b>De ce contează:</b> ${i.why}</div>
-      <div class="src">Sursa: <a href="${i.url}" target="_blank" rel="noopener">${i.source||i.url}</a></div>`;
-    list.appendChild(d);
+  const show = items.filter(i=>sevOn.has(i.sev) && catOn.has(i.cat));
+  if(!show.length){ list.innerHTML = '<div class="empty">Nimic pe filtrele curente.</div>'; }
+  const days = [...new Set(show.map(i=>i.date))].sort().reverse();
+  days.forEach(day=>{
+    const h = document.createElement('div'); h.className='day'; h.textContent = dayLabel(day);
+    list.appendChild(h);
+    show.filter(i=>i.date===day)
+        .sort((a,b)=> (sevRank[a.sev]-sevRank[b.sev]) || String(b.pub||'').localeCompare(String(a.pub||'')))
+        .forEach(i=>{
+      const a = document.createElement('a');
+      a.className = 'item '+i.sev; a.href = i.url; a.target = '_blank'; a.rel = 'noopener';
+      a.innerHTML = `
+        <div class="meta"><span class="sevlbl ${i.sev}">${sevLabel[i.sev]}</span>
+          <span class="cat">${catLabel[i.cat]||i.cat}</span><span class="pub">publicat ${i.pub||'?'}</span></div>
+        <div class="title">${i.title}
+          <svg class="ext" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></div>
+        <div class="summary">${i.summary}</div>
+        <span class="why">${i.why}</span>
+        <div class="src">${i.source||''}</div>`;
+      list.appendChild(a);
+    });
   });
-  const last = items.length ? items.map(i=>i.date).sort().slice(-1)[0] : '—';
+  const last = items.length ? items.map(i=>i.date).sort().slice(-1)[0] : null;
   document.getElementById('sub').textContent =
-    `${items.length} știri în radar · ultima actualizare: ${last} · rulează luni/miercuri/vineri ~08:00`;
+    `${items.length} știri · ultima actualizare: ${last ? dayLabel(last) : '—'} · rulează luni, miercuri și vineri dimineața`;
 }
-chips('sevFilters', SEV, sevOn); chips('catFilters', CAT, catOn); render();
+function refreshData(){
+  const btn = document.getElementById('refreshBtn'), txt = document.getElementById('refreshTxt');
+  btn.disabled = true; btn.classList.add('spin'); txt.textContent = 'se actualizează…';
+  const s = document.createElement('script');
+  s.src = 'data.js?t=' + Date.now();   // query nou = ocolește cache-ul CDN
+  s.onload = ()=>{ items = (window.RADAR_ITEMS||[]); render(); btn.disabled=false; btn.classList.remove('spin'); txt.textContent='Actualizează'; };
+  s.onerror = ()=>{ btn.disabled=false; btn.classList.remove('spin'); txt.textContent='eroare — reîncearcă'; };
+  document.body.appendChild(s);
+}
+render();
 </script>
 </body>
 </html>
