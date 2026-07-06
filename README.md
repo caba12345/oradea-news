@@ -1,6 +1,6 @@
 # 📡 Radar Finanțări Oradea
 
-Digest automat de știri despre finanțări și business pentru Paul — rulează **luni, miercuri și vineri dimineața** (routine Claude în cloud). Fiecare rulare adaugă un fișier în `news/`, actualizează **dashboard-ul** (`docs/index.html` + `docs/data.js`) și acest index. Folderul de pe Desktop se sincronizează automat când laptopul e pornit.
+Digest automat de știri despre finanțări nerambursabile și business pentru un startup în Oradea / regiunea Nord-Vest — rulează **luni, miercuri și vineri dimineața** (agent automat). Fiecare rulare adaugă un fișier în `news/` și actualizează **dashboard-ul** (`docs/index.html` + `docs/data.js`) și acest index.
 
 **📊 Dashboard**: deschide `docs/index.html` (dublu-click) — știrile colorate după importanță, cu filtre.
 
@@ -26,4 +26,4 @@ _(se completează automat de la prima rulare)_
 3. **Oradea local**: Make IT in Oradea / Bright Labs (sesiuni incubator), ADLO / facilități fiscale, știri economice locale (ebihoreanul.ro)
 4. **Alte oportunități**: acceleratoare (Spherik, Techcelerator, Innovation Labs), competiții cu granturi, SRL-D, credite garantate
 
-Profilul urmărit: 23 ani, informatician (UBB + master DB), firmă nouă în Oradea, țintă principală Start-Up Nation Pilonul I (250.000 lei), idee curentă: fabricare IoT + platformă date (CAEN 2651) — context complet în folderul `startup-nation` de pe Desktop.
+Profilul urmărit: antreprenor tânăr (18-30), firmă nouă în Oradea, țintă principală Start-Up Nation Pilonul I (250.000 lei) + programe conexe pentru startup-uri din Nord-Vest.

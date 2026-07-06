@@ -35,10 +35,16 @@
   a{color:inherit}
   .src{font-size:.8rem; color:var(--muted)}
   .empty{color:var(--muted); text-align:center; padding:40px 0}
+  .topbar{display:flex; align-items:center; justify-content:space-between; gap:12px; flex-wrap:wrap}
+  .refresh{border:1px solid var(--border); background:var(--card); color:var(--text); border-radius:8px; padding:8px 16px; font-size:.9rem; cursor:pointer}
+  .refresh:active{transform:scale(.97)}
 </style>
 </head>
 <body>
-<h1>📡 Radar Finanțări Oradea</h1>
+<div class="topbar">
+  <h1>📡 Radar Finanțări Oradea</h1>
+  <button class="refresh" id="refreshBtn" onclick="refreshData()">🔄 Actualizează</button>
+</div>
 <div class="sub" id="sub">se încarcă…</div>
 <div class="filters" id="sevFilters"></div>
 <div class="filters" id="catFilters"></div>
@@ -55,8 +61,18 @@ const CAT = [
   ["oradea","📍 Oradea"], ["alte","📚 Alte oportunități"]
 ];
 const sevRank = {rosu:0, portocaliu:1, galben:2, verde:3};
-const items = (window.RADAR_ITEMS||[]);
+let items = (window.RADAR_ITEMS||[]);
 let sevOn = new Set(SEV.map(s=>s[0])), catOn = new Set(CAT.map(c=>c[0]));
+
+function refreshData(){
+  const btn = document.getElementById('refreshBtn');
+  btn.disabled = true; btn.textContent = '⏳ se actualizează…';
+  const s = document.createElement('script');
+  s.src = 'data.js?t=' + Date.now();   // query nou = ocolește cache-ul CDN
+  s.onload = ()=>{ items = (window.RADAR_ITEMS||[]); render(); btn.disabled=false; btn.textContent='🔄 Actualizează'; };
+  s.onerror = ()=>{ btn.disabled=false; btn.textContent='⚠️ eroare — reîncearcă'; };
+  document.body.appendChild(s);
+}
 
 function chips(el, defs, set, colorClass){
   defs.forEach(([key,label])=>{
