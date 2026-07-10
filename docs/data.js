@@ -5,6 +5,20 @@
 // Itemi noi se ADAUGĂ LA ÎNCEPUTUL listei. Dedup după url și subiect.
 window.RADAR_ITEMS = [
   {
+    "date": "2026-07-10", "sev": "galben", "cat": "sun",
+    "title": "MEDAT a publicat listele Sesiunii 1: peste 5.800 locuri de finanțare, ierarhizate pe punctaj",
+    "summary": "4 iulie: liste RUE cu firme înscrise — 2.561 locuri pt. 18-30 ani din regiuni mai puțin dezvoltate.",
+    "why": "Semnal că Sesiunea 1 se încheie — Sesiunea 2 ar putea urma curând.",
+    "url": "https://economie.gov.ro/medat-publica-listele-persoanelor-juridice-inscrise-la-finantare-in-cadrul-primei-sesiuni-a-editiei-a-iv-a-a-programului-start-up-nation-2/", "source": "economie.gov.ro · MEDAT", "pub": "2026-07-04"
+  },
+  {
+    "date": "2026-07-10", "sev": "verde", "cat": "finantari",
+    "title": "UPDATE: PR Nord-Vest 131.H — termen extins de la 10 la 15 iulie, tot doar preselectați",
+    "summary": "Instrucțiunea 76/9 iulie 2026 prelungește depunerea până pe 15 iulie, exclusiv microîntreprinderi Crowd4SME.",
+    "why": "Neeligibil — arată doar activitate constantă ADR Nord-Vest pe microîntreprinderi.",
+    "url": "https://regionordvest.ro/instructiunea-76-09-07-2026-privind-actualizarea-ghidului-solicitantului-131-h-sprijin-pentru-microintreprinderile-selectate-prin-proiectul-crowd4sme-nw-in-cadrul-crowdfundmatch/", "source": "regionordvest.ro · ADR Nord-Vest", "pub": "2026-07-09"
+  },
+  {
     "date": "2026-07-07", "sev": "portocaliu", "cat": "oradea",
     "title": "Bright Labs a devenit „Startup Fortress” — program continuu, fără cohorte",
     "summary": "3 luni mentorat, cazare și coworking gratuite, grant până la 5.000 EUR, acces la investiții de 100–300k EUR.",
@@ -52,13 +66,6 @@ window.RADAR_ITEMS = [
     "summary": "Granturi pentru firme înființate de studenți și masteranzi; la ediția 1: 40.000–100.000 EUR, în funcție de joburile create.",
     "why": "Ca masterand UBB ești exact grupul țintă — urmărește SAS UBB.",
     "url": "https://www.avocatnet.ro/articol_68975/", "source": "Avocatnet · MIPE", "pub": "2026-04-15"
-  },
-  {
-    "date": "2026-07-07", "sev": "verde", "cat": "finantari",
-    "title": "PR Nord-Vest 131.H: apel de 60.000 EUR doar pentru firmele pre-selectate Crowd4SME",
-    "summary": "Deschis 22 iunie–10 iulie, exclusiv pentru microîntreprinderile din lotul pilot Interreg CROWDFUNDMATCH.",
-    "why": "Neeligibil acum — dar ADR NV rulează constant apeluri pentru microîntreprinderi.",
-    "url": "https://regionordvest.ro/en/consultare-publica-pentru-ghidul-solicitantului-131-h-sprijin-pentru-microintreprinderile-selectate-prin-proiectul-crowd4sme-nw-in-cadrul-crowdfundmatch-interreg-europe-a/", "source": "regionordvest.ro", "pub": "2026-06-22"
   },
   {
     "date": "2026-07-07", "sev": "verde", "cat": "finantari",
