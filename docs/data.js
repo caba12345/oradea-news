@@ -5,6 +5,13 @@
 // Itemi noi se ADAUGĂ LA ÎNCEPUTUL listei. Dedup după url și subiect.
 window.RADAR_ITEMS = [
   {
+    "date": "2026-08-14", "sev": "verde", "cat": "finantari",
+    "title": "Program nou: „Diaspora investește acasă” — 100 mil. EUR, doar pentru români reveniți din străinătate",
+    "summary": "HG 601/2026 (12 aug): grant 200.000 EUR pentru diaspora, asociat cu 12 luni în străinătate.",
+    "why": "Neeligibil — nu ești diasporă; arată doar apetit MEDAT pentru scheme noi.",
+    "url": "https://startupcafe.ro/finantari-100-milioane-euro-romani-strainatate-firme-romania-descarca-hg-601-2026-reguli-program-diaspora-investeste-acasa-monitorul-oficial-105025", "source": "StartupCafe · HG 601/2026", "pub": "2026-08-12"
+  },
+  {
     "date": "2026-07-10", "sev": "galben", "cat": "sun",
     "title": "MEDAT a publicat listele Sesiunii 1: peste 5.800 locuri de finanțare, ierarhizate pe punctaj",
     "summary": "4 iulie: liste RUE cu firme înscrise — 2.561 locuri pt. 18-30 ani din regiuni mai puțin dezvoltate.",
