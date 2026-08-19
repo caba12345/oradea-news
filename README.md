@@ -17,6 +17,7 @@ Digest automat de știri despre finanțări nerambursabile și business pentru u
 
 ## 📰 Digesturi (cele mai noi sus)
 
+- [2026-08-19](news/2026-08-19.md) — 🟡 fără noutăți, SUN Sesiunea 2 tot fără dată
 - [2026-08-17](news/2026-08-17.md) — 🟡 fără noutăți, SUN Sesiunea 2 tot fără dată
 - [2026-08-14](news/2026-08-14.md) — 🟢 program nou „Diaspora investește acasă" (neeligibil), SUN Sesiunea 2 tot fără dată
 - [2026-08-12](news/2026-08-12.md) — 🟡 fără noutăți de acțiune, SUN Sesiunea 2 tot fără dată
