@@ -5,6 +5,20 @@
 // Itemi noi se ADAUGĂ LA ÎNCEPUTUL listei. Dedup după url și subiect.
 window.RADAR_ITEMS = [
   {
+    "date": "2026-08-21", "sev": "galben", "cat": "finantari",
+    "title": "Apel Regio NV 112/2 „întreprinderi nou-înființate inovatoare” — estimat pentru toamna 2026",
+    "summary": "Calendar MIPE estimează depunere aug-sept 2026; fără lansare oficială confirmată de ADR NV.",
+    "why": "Cere 1 an istoric financiar — aplicabil abia după înființarea firmei.",
+    "url": "https://www.fonduri-structurale.ro/stiri/39408/aproape-300-de-apeluri-ar-urma-sa-se-lanseze-in-2026-afla-cate-dintre-acestea-sunt-dedicate-imm-urilor", "source": "Fonduri-structurale.ro · calendar MIPE 2026", "pub": "2026-08"
+  },
+  {
+    "date": "2026-08-21", "sev": "verde", "cat": "finantari",
+    "title": "UPDATE: SME Eco-Tech elimină pragul de 2 mil. lei CA pentru microîntreprinderi (Ordin 1241/2026)",
+    "summary": "13 aug: eliminat pragul de 2 mil. lei CA; termen depunere extins la 24 sept.",
+    "why": "Tot neeligibil — cere firmă înființată până la 31 dec 2021.",
+    "url": "https://startupcafe.ro/noua-concesie-la-sme-eco-tech-s-a-mai-eliminat-o-conditie-care-bloca-multe-firme-micro-la-fondurile-elvetiene-de-288-milioane-lei-105082", "source": "StartupCafe · Ordin MEDAT 1241/2026", "pub": "2026-08-13"
+  },
+  {
     "date": "2026-08-14", "sev": "verde", "cat": "finantari",
     "title": "Program nou: „Diaspora investește acasă” — 100 mil. EUR, doar pentru români reveniți din străinătate",
     "summary": "HG 601/2026 (12 aug): grant 200.000 EUR pentru diaspora, asociat cu 12 luni în străinătate.",
@@ -73,12 +87,5 @@ window.RADAR_ITEMS = [
     "summary": "Granturi pentru firme înființate de studenți și masteranzi; la ediția 1: 40.000–100.000 EUR, în funcție de joburile create.",
     "why": "Ca masterand UBB ești exact grupul țintă — urmărește SAS UBB.",
     "url": "https://www.avocatnet.ro/articol_68975/", "source": "Avocatnet · MIPE", "pub": "2026-04-15"
-  },
-  {
-    "date": "2026-07-07", "sev": "verde", "cat": "finantari",
-    "title": "SME Eco-Tech (fonduri elvețiene): deschis până pe 24 iulie — nu pentru firme noi",
-    "summary": "Grant de minimis max 267.240 lei + credit bancar, doar pentru IMM-uri cu 10–249 angajați și investiții eco-energetice.",
-    "why": "Neeligibil (cere 10+ angajați) — doar context.",
-    "url": "https://sme-ecotech.gov.ro", "source": "sme-ecotech.gov.ro · MEDAT", "pub": "2026-05-26"
   }
 ];
