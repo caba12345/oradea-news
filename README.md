@@ -17,6 +17,7 @@ Digest automat de știri despre finanțări nerambursabile și business pentru u
 
 ## 📰 Digesturi (cele mai noi sus)
 
+- [2026-08-28](news/2026-08-28.md) — 🟡 fără noutăți, SUN Sesiunea 2 tot fără dată
 - [2026-08-26](news/2026-08-26.md) — 🟡 fără noutăți, SUN Sesiunea 2 tot fără dată
 - [2026-08-24](news/2026-08-24.md) — 🟡 fără noutăți, SUN Sesiunea 2 tot fără dată
 - [2026-08-21](news/2026-08-21.md) — 🟡 SME Eco-Tech relaxat (tot neeligibil), apel Regio NV 112/2 estimat toamna
