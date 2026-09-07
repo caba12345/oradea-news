@@ -17,6 +17,7 @@ Digest automat de știri despre finanțări nerambursabile și business pentru u
 
 ## 📰 Digesturi (cele mai noi sus)
 
+- [2026-09-07](news/2026-09-07.md) — 🟡 fără noutăți, SUN Sesiunea 2 tot fără dată
 - [2026-09-04](news/2026-09-04.md) — 🟡 fără noutăți, SUN Sesiunea 2 tot fără dată
 - [2026-09-02](news/2026-09-02.md) — 🟡 fără noutăți, SUN Sesiunea 2 tot fără dată
 - [2026-08-31](news/2026-08-31.md) — 🟡 fără noutăți, SUN Sesiunea 2 tot fără dată
