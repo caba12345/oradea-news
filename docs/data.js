@@ -5,6 +5,13 @@
 // Itemi noi se ADAUGĂ LA ÎNCEPUTUL listei. Dedup după url și subiect.
 window.RADAR_ITEMS = [
   {
+    "date": "2026-09-09", "sev": "portocaliu", "cat": "oradea",
+    "title": "ADLO lansează Apelul de selecție nr. 8 pentru incubatorul CRESC Oradea Mare — termen 4 oct 2026",
+    "summary": "Preincubare cu idee de afacere; depunere până 4 oct ora 23:00, rezultate 6 oct, interviuri 9 oct.",
+    "why": "Aplici doar cu idee, fără firmă — verifică dacă CAEN tău e pe lista industrii creative.",
+    "url": "https://crescoradea.ro/depunere-a-candidaturilor/", "source": "crescoradea.ro · ADLO", "pub": "2026-09-07"
+  },
+  {
     "date": "2026-08-21", "sev": "galben", "cat": "finantari",
     "title": "Apel Regio NV 112/2 „întreprinderi nou-înființate inovatoare” — estimat pentru toamna 2026",
     "summary": "Calendar MIPE estimează depunere aug-sept 2026; fără lansare oficială confirmată de ADR NV.",
