@@ -5,6 +5,13 @@
 // Itemi noi se ADAUGĂ LA ÎNCEPUTUL listei. Dedup după url și subiect.
 window.RADAR_ITEMS = [
   {
+    "date": "2026-09-11", "sev": "galben", "cat": "finantari",
+    "title": "Regio Nord-Vest deschide apelul 961 STEP (tehnologii strategice) — depunere până 12 oct 2026",
+    "summary": "Buget 20,95 mil. EUR; grant 200.000–1.500.000 EUR/proiect; firma se poate înființa până la prima plată.",
+    "why": "Prag minim 200.000 EUR, personal R&D propriu — greu accesibil fără capital.",
+    "url": "https://regionordvest.ro/en/apelul-de-proiecte-dedicat-investitiilor-in-tehnologii-strategice-step-este-deschis-de-la-ora-1000/", "source": "regionordvest.ro · ADR Nord-Vest (Ghid 961)", "pub": "2026-08-28"
+  },
+  {
     "date": "2026-09-09", "sev": "portocaliu", "cat": "oradea",
     "title": "ADLO lansează Apelul de selecție nr. 8 pentru incubatorul CRESC Oradea Mare — termen 4 oct 2026",
     "summary": "Preincubare cu idee de afacere; depunere până 4 oct ora 23:00, rezultate 6 oct, interviuri 9 oct.",
