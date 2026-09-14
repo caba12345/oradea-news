@@ -17,6 +17,7 @@ Digest automat de știri despre finanțări nerambursabile și business pentru u
 
 ## 📰 Digesturi (cele mai noi sus)
 
+- [2026-09-14](news/2026-09-14.md) — 🟡 fără noutăți, SUN Sesiunea 2 tot fără dată
 - [2026-09-11](news/2026-09-11.md) — 🟡 apel Regio NV STEP (961) nou, prag prea mare pentru solo
 - [2026-09-09](news/2026-09-09.md) — 🟠 ADLO apel nr. 8 CRESC Oradea Mare, termen 4 oct 2026
 - [2026-09-07](news/2026-09-07.md) — 🟡 fără noutăți, SUN Sesiunea 2 tot fără dată
