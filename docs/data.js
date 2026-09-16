@@ -5,6 +5,13 @@
 // Itemi noi se ADAUGĂ LA ÎNCEPUTUL listei. Dedup după url și subiect.
 window.RADAR_ITEMS = [
   {
+    "date": "2026-09-16", "sev": "galben", "cat": "sun",
+    "title": "Darău confirmă amploarea Sesiunii 2 SUN: ~10.000 locuri curs, ~2.000 granturi de 250.000 lei — tot fără dată",
+    "summary": "Anunțat 14 sept la conferință de presă: ~10.000 locuri curs, ~2.000 granturi a 250.000 lei.",
+    "why": "Confirmă scara reală a sesiunii, dar tot nu știi când te poți înscrie.",
+    "url": "https://startupcafe.ro/startup-nation-2026-vom-lansa-si-a-doua-sesiune-in-toamna-aceasta-ministrul-economiei-106760", "source": "StartupCafe · declarație ministru Darău", "pub": "2026-09-14"
+  },
+  {
     "date": "2026-09-11", "sev": "galben", "cat": "finantari",
     "title": "Regio Nord-Vest deschide apelul 961 STEP (tehnologii strategice) — depunere până 12 oct 2026",
     "summary": "Buget 20,95 mil. EUR; grant 200.000–1.500.000 EUR/proiect; firma se poate înființa până la prima plată.",
