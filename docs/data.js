@@ -5,6 +5,13 @@
 // Itemi noi se ADAUGĂ LA ÎNCEPUTUL listei. Dedup după url și subiect.
 window.RADAR_ITEMS = [
   {
+    "date": "2026-09-18", "sev": "verde", "cat": "alte",
+    "title": "Rubik Hub deschide Acceleratorul MVP cu Nucleo Ventures — investiție posibilă de 150.000 EUR, termen 30 sept",
+    "summary": "Cere MVP funcțional + minim 2 co-fondatori cu tracțiune; program gratuit, deadline 30 septembrie 2026.",
+    "why": "Neeligibil acum — nu ai MVP funcțional nici co-fondator, doar idee.",
+    "url": "https://startupcafe.ro/inscrieri-2026-fondatori-startup-uri-prototipuri-functionale-romania-italia-accelerator-106875", "source": "StartupCafe · Rubik Hub / Nucleo Ventures", "pub": "2026-09-16"
+  },
+  {
     "date": "2026-09-16", "sev": "galben", "cat": "sun",
     "title": "Darău confirmă amploarea Sesiunii 2 SUN: ~10.000 locuri curs, ~2.000 granturi de 250.000 lei — tot fără dată",
     "summary": "Anunțat 14 sept la conferință de presă: ~10.000 locuri curs, ~2.000 granturi a 250.000 lei.",
