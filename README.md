@@ -17,6 +17,7 @@ Digest automat de știri despre finanțări nerambursabile și business pentru u
 
 ## 📰 Digesturi (cele mai noi sus)
 
+- [2026-09-21](news/2026-09-21.md) — 🟡 fără noutăți, SUN Sesiunea 2 tot fără dată
 - [2026-09-18](news/2026-09-18.md) — 🟢 Rubik Hub x Nucleo Ventures accelerator MVP nou (neeligibil), SUN tot fără dată
 - [2026-09-16](news/2026-09-16.md) — 🟡 Darău dă cifre concrete Sesiunea 2 SUN (10.000 locuri, 2.000 granturi), tot fără dată
 - [2026-09-14](news/2026-09-14.md) — 🟡 fără noutăți, SUN Sesiunea 2 tot fără dată
