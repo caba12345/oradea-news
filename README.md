@@ -13,10 +13,11 @@ Digest automat de știri despre finanțări nerambursabile și business pentru u
 
 ## 🚨 Alerte active
 
-- **Start-Up Nation Sesiunea 2 (Pilonul I)**: anunțată oficial, FĂRĂ dată la 13 iul 2026. Când apare data → înscriere la cursul de 40h pe minimis.imm.gov.ro ÎN PRIMA ZI.
+- **Start-Up Nation Sesiunea 2 (Pilonul I)**: anunțată oficial, FĂRĂ dată la 23 sept 2026. Director general Min. Economiei (22 sept): lansare „foarte probabil chiar în zilele următoare” — cel mai strâns semnal de până acum. Când apare data → înscriere la cursul de 40h pe minimis.imm.gov.ro ÎN PRIMA ZI.
 
 ## 📰 Digesturi (cele mai noi sus)
 
+- [2026-09-23](news/2026-09-23.md) — 🟡 Taină: sesiunea 2 SUN „în zilele următoare”, tot fără dată
 - [2026-09-21](news/2026-09-21.md) — 🟡 fără noutăți, SUN Sesiunea 2 tot fără dată
 - [2026-09-18](news/2026-09-18.md) — 🟢 Rubik Hub x Nucleo Ventures accelerator MVP nou (neeligibil), SUN tot fără dată
 - [2026-09-16](news/2026-09-16.md) — 🟡 Darău dă cifre concrete Sesiunea 2 SUN (10.000 locuri, 2.000 granturi), tot fără dată

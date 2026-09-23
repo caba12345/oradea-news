@@ -5,6 +5,13 @@
 // Itemi noi se ADAUGĂ LA ÎNCEPUTUL listei. Dedup după url și subiect.
 window.RADAR_ITEMS = [
   {
+    "date": "2026-09-23", "sev": "galben", "cat": "sun",
+    "title": "Taină (Min. Economiei): sesiunea 2 SUN „foarte probabil chiar în zilele următoare” pe site-ul ministerului",
+    "summary": "22 sept: director general anunță lansare „în zilele următoare”, tot fără dată exactă; ~3.000 contracte sesiunea 1 semnate săptămâna asta.",
+    "why": "Cel mai strâns termen anunțat până acum — verifică zilnic economie.gov.ro.",
+    "url": "https://agerpres.ro/economic/2026/09/22/taina-ministerul-economiei-aproximativ-3-000-de-contracte-start-up-nation-vor-fi-lansate-in-aceasta---1595794", "source": "AGERPRES · declarație Camelia Taină", "pub": "2026-09-22"
+  },
+  {
     "date": "2026-09-18", "sev": "verde", "cat": "alte",
     "title": "Rubik Hub deschide Acceleratorul MVP cu Nucleo Ventures — investiție posibilă de 150.000 EUR, termen 30 sept",
     "summary": "Cere MVP funcțional + minim 2 co-fondatori cu tracțiune; program gratuit, deadline 30 septembrie 2026.",
