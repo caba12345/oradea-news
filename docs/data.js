@@ -5,6 +5,13 @@
 // Itemi noi se ADAUGĂ LA ÎNCEPUTUL listei. Dedup după url și subiect.
 window.RADAR_ITEMS = [
   {
+    "date": "2026-09-25", "sev": "verde", "cat": "finantari",
+    "title": "TechUp România: schemă de stat de 1 mld. EUR pentru tehnologii avansate (HG 643/2026) — prag minim 5 mil. lei",
+    "summary": "Proiect eligibil 5-50 mil. lei costuri, min. 2 mil. cercetare + 3 mil. producție, cofinanțare 25%.",
+    "why": "Neeligibil acum — scară de firmă mare, mult peste un startup solo.",
+    "url": "https://startupcafe.ro/programul-techup-romania-cu-ajutoare-de-1-miliard-eur-pentru-firmele-de-tehnologie-publicat-in-monitorul-oficial-descarca-hg-643-2026-cu-lista-domeniilor-eligibile-finantarea-maxima-pe-judete-si-c-105604", "source": "StartupCafe · HG 643/2026", "pub": "2026-08-24"
+  },
+  {
     "date": "2026-09-23", "sev": "galben", "cat": "sun",
     "title": "Taină (Min. Economiei): sesiunea 2 SUN „foarte probabil chiar în zilele următoare” pe site-ul ministerului",
     "summary": "22 sept: director general anunță lansare „în zilele următoare”, tot fără dată exactă; ~3.000 contracte sesiunea 1 semnate săptămâna asta.",
