@@ -17,6 +17,7 @@ Digest automat de știri despre finanțări nerambursabile și business pentru u
 
 ## 📰 Digesturi (cele mai noi sus)
 
+- [2026-09-28](news/2026-09-28.md) — 🟡 fără noutăți, Impact SEE'26 (Darău) are loc 29-30 sept
 - [2026-09-25](news/2026-09-25.md) — 🟢 TechUp România (1 mld. EUR, neeligibil), SUN Sesiunea 2 tot fără dată
 - [2026-09-23](news/2026-09-23.md) — 🟡 Taină: sesiunea 2 SUN „în zilele următoare”, tot fără dată
 - [2026-09-21](news/2026-09-21.md) — 🟡 fără noutăți, SUN Sesiunea 2 tot fără dată
