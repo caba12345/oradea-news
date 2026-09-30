@@ -13,10 +13,11 @@ Digest automat de știri despre finanțări nerambursabile și business pentru u
 
 ## 🚨 Alerte active
 
-- **Start-Up Nation Sesiunea 2 (Pilonul I)**: anunțată oficial, FĂRĂ dată la 23 sept 2026. Director general Min. Economiei (22 sept): lansare „foarte probabil chiar în zilele următoare” — cel mai strâns semnal de până acum. Când apare data → înscriere la cursul de 40h pe minimis.imm.gov.ro ÎN PRIMA ZI.
+- **Start-Up Nation Sesiunea 2 (Pilonul I)**: anunțată oficial, FĂRĂ dată la 30 sept 2026. Ultimul semnal ferm rămâne declarația Taină (22 sept): lansare „foarte probabil chiar în zilele următoare”. Impact SEE'26 (29-30 sept, cu Darău prezent) s-a încheiat FĂRĂ anunț de dată. Când apare data → înscriere la cursul de 40h pe minimis.imm.gov.ro ÎN PRIMA ZI.
 
 ## 📰 Digesturi (cele mai noi sus)
 
+- [2026-09-30](news/2026-09-30.md) — 🟡 Impact SEE'26 s-a încheiat fără dată pentru Sesiunea 2 SUN
 - [2026-09-28](news/2026-09-28.md) — 🟡 fără noutăți, Impact SEE'26 (Darău) are loc 29-30 sept
 - [2026-09-25](news/2026-09-25.md) — 🟢 TechUp România (1 mld. EUR, neeligibil), SUN Sesiunea 2 tot fără dată
 - [2026-09-23](news/2026-09-23.md) — 🟡 Taină: sesiunea 2 SUN „în zilele următoare”, tot fără dată
