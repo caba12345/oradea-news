@@ -5,6 +5,13 @@
 // Itemi noi se ADAUGĂ LA ÎNCEPUTUL listei. Dedup după url și subiect.
 window.RADAR_ITEMS = [
   {
+    "date": "2026-10-02", "sev": "rosu", "cat": "sun",
+    "title": "Sesiunea 2 Start-Up Nation ANUNȚATĂ OFICIAL: înscrieri la curs din 6 oct, ora 10:00, pe minimis.imm.gov.ro",
+    "summary": "17.600 locuri curs, doar 18-29 ani (Pilonul I), fără locuri 30-35 ani; finanțare 250.000 lei ulterior.",
+    "why": "ACȚIUNE ACUM: înscrie-te la curs chiar în prima zi, 6 octombrie.",
+    "url": "https://startupcafe.ro/startup-nation-2026-deschide-noua-sesiune-inscrieri-program-antreprenorial-ajutoare-tineri-patroni-107638", "source": "StartupCafe · MEDAT (Darău)", "pub": "2026-10-01"
+  },
+  {
     "date": "2026-09-25", "sev": "verde", "cat": "finantari",
     "title": "TechUp România: schemă de stat de 1 mld. EUR pentru tehnologii avansate (HG 643/2026) — prag minim 5 mil. lei",
     "summary": "Proiect eligibil 5-50 mil. lei costuri, min. 2 mil. cercetare + 3 mil. producție, cofinanțare 25%.",
