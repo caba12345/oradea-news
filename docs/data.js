@@ -5,6 +5,13 @@
 // Itemi noi se ADAUGĂ LA ÎNCEPUTUL listei. Dedup după url și subiect.
 window.RADAR_ITEMS = [
   {
+    "date": "2026-10-05", "sev": "portocaliu", "cat": "sun",
+    "title": "MEDAT a publicat lista oficială a celor 113 furnizori de curs acreditați pentru Sesiunea 2 SUN",
+    "summary": "Lista cu 113 furnizori (nume, locații, format curs) disponibilă pe minimis.imm.gov.ro înainte de 6 oct.",
+    "why": "Alege furnizorul din timp, înainte să te înscrii mâine la ora 10:00.",
+    "url": "https://economie.gov.ro/start-up-nation-medat-publica-lista-furnizorilor-de-formare-profesionala/", "source": "economie.gov.ro · MEDAT", "pub": "2026-10-03"
+  },
+  {
     "date": "2026-10-02", "sev": "rosu", "cat": "sun",
     "title": "Sesiunea 2 Start-Up Nation ANUNȚATĂ OFICIAL: înscrieri la curs din 6 oct, ora 10:00, pe minimis.imm.gov.ro",
     "summary": "17.600 locuri curs, doar 18-29 ani (Pilonul I), fără locuri 30-35 ani; finanțare 250.000 lei ulterior.",
