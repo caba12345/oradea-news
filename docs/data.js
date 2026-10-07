@@ -5,18 +5,18 @@
 // Itemi noi se ADAUGĂ LA ÎNCEPUTUL listei. Dedup după url și subiect.
 window.RADAR_ITEMS = [
   {
+    "date": "2026-10-07", "sev": "rosu", "cat": "sun",
+    "title": "UPDATE: Înscrierile la cursul SUN Sesiunea 2 s-au deschis cu succes pe 6 oct — blocaj tehnic scurt, rezolvat în 25 min",
+    "summary": "Platforma funcțională după un scurt blocaj; doar 1.246 din 17.600 locuri ocupate până la prânz.",
+    "why": "Dacă nu te-ai înscris încă, fă-o acum — primul-venit-primul-servit, mai sunt locuri multe.",
+    "url": "https://startupcafe.ro/inscrierile-functioneaza-la-startup-nation-2026-ministerul-economiei-isi-prezinta-scuzele-pentru-eventualele-inconveniente-generate-de-problema-tehnica-temporara-la-platforma-facuta-107988", "source": "StartupCafe · MEDAT", "pub": "2026-10-06"
+  },
+  {
     "date": "2026-10-05", "sev": "portocaliu", "cat": "sun",
     "title": "MEDAT a publicat lista oficială a celor 113 furnizori de curs acreditați pentru Sesiunea 2 SUN",
     "summary": "Lista cu 113 furnizori (nume, locații, format curs) disponibilă pe minimis.imm.gov.ro înainte de 6 oct.",
     "why": "Alege furnizorul din timp, înainte să te înscrii mâine la ora 10:00.",
     "url": "https://economie.gov.ro/start-up-nation-medat-publica-lista-furnizorilor-de-formare-profesionala/", "source": "economie.gov.ro · MEDAT", "pub": "2026-10-03"
-  },
-  {
-    "date": "2026-10-02", "sev": "rosu", "cat": "sun",
-    "title": "Sesiunea 2 Start-Up Nation ANUNȚATĂ OFICIAL: înscrieri la curs din 6 oct, ora 10:00, pe minimis.imm.gov.ro",
-    "summary": "17.600 locuri curs, doar 18-29 ani (Pilonul I), fără locuri 30-35 ani; finanțare 250.000 lei ulterior.",
-    "why": "ACȚIUNE ACUM: înscrie-te la curs chiar în prima zi, 6 octombrie.",
-    "url": "https://startupcafe.ro/startup-nation-2026-deschide-noua-sesiune-inscrieri-program-antreprenorial-ajutoare-tineri-patroni-107638", "source": "StartupCafe · MEDAT (Darău)", "pub": "2026-10-01"
   },
   {
     "date": "2026-09-25", "sev": "verde", "cat": "finantari",

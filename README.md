@@ -1,7 +1,7 @@
 # 📡 Radar Finanțări Oradea
 
-🚨🚨 **SESIUNEA 2 START-UP NATION ANUNȚATĂ — înscriere la curs din 6 octombrie 2026, ora 10:00, pe minimis.imm.gov.ro**
-Pași imediați: (1) 6 oct, dimineața, intră pe minimis.imm.gov.ro imediat după ora 10:00 și înscrie-te la curs (17.600 locuri, doar 18-29 ani); (2) alege un furnizor din [lista celor 113 acreditați MEDAT](https://economie.gov.ro/start-up-nation-medat-publica-lista-furnizorilor-de-formare-profesionala/) — publicată acum, verific-o din timp; (3) pregătește din timp ideea de afacere (IoT + platformă de date, CAEN 2651) pentru planul de afaceri de după curs. Detalii: [news/2026-10-02.md](news/2026-10-02.md), [news/2026-10-05.md](news/2026-10-05.md).
+🚨🚨 **SESIUNEA 2 START-UP NATION DESCHISĂ — înscrie-te ACUM pe minimis.imm.gov.ro (încă sunt multe locuri)**
+Înscrierile s-au deschis cu succes pe 6 octombrie, ora 10:00 (mic blocaj tehnic rezolvat în 25 min); până la prânz doar 1.246 din 17.600 locuri erau ocupate. Pași imediați: (1) intră pe minimis.imm.gov.ro și înscrie-te la curs cât mai curând (18-29 ani, sesiune deschisă 30 zile sau până se epuizează locurile); (2) alege un furnizor din [lista celor 113 acreditați MEDAT](https://economie.gov.ro/start-up-nation-medat-publica-lista-furnizorilor-de-formare-profesionala/); (3) pregătește din timp ideea de afacere (IoT + platformă de date, CAEN 2651) pentru planul de afaceri de după curs. Detalii: [news/2026-10-02.md](news/2026-10-02.md), [news/2026-10-05.md](news/2026-10-05.md), [news/2026-10-07.md](news/2026-10-07.md).
 
 Digest automat de știri despre finanțări nerambursabile și business pentru un startup în Oradea / regiunea Nord-Vest — rulează **luni, miercuri și vineri dimineața** (agent automat). Fiecare rulare adaugă un fișier în `news/` și actualizează **dashboard-ul** (`docs/index.html` + `docs/data.js`) și acest index.
 
@@ -16,10 +16,11 @@ Digest automat de știri despre finanțări nerambursabile și business pentru u
 
 ## 🚨 Alerte active
 
-- **Start-Up Nation Sesiunea 2 (Pilonul I)**: DATĂ CONFIRMATĂ — înscriere la cursul obligatoriu de 40h din **6 octombrie 2026, ora 10:00**, pe minimis.imm.gov.ro. 17.600 locuri, exclusiv 18-29 ani (fără Pilonul II). Finanțarea de 250.000 lei se cere după absolvirea cursului. Primul-venit-primul-servit — înscrie-te chiar din prima zi. **Lista celor 113 furnizori de curs e deja publicată** (vezi link mai sus) — alege-l din timp.
+- **Start-Up Nation Sesiunea 2 (Pilonul I)**: ÎNSCRIERI DESCHISE din **6 octombrie 2026, ora 10:00**, pe minimis.imm.gov.ro — funcționale după un scurt blocaj tehnic la debut. Doar 1.246 din 17.600 locuri ocupate până la prânz în prima zi, deci încă e timp, dar nu amâna prea mult (30 de zile sau până se epuizează locurile). Exclusiv 18-29 ani (fără Pilonul II). Finanțarea de 250.000 lei se cere după absolvirea cursului. **Lista celor 113 furnizori de curs e deja publicată** (vezi link mai sus) — alege-l din timp.
 
 ## 📰 Digesturi (cele mai noi sus)
 
+- [2026-10-07](news/2026-10-07.md) — 🔴 SUN deschis cu succes 6 oct, doar 1.246/17.600 înscriși până la prânz
 - [2026-10-05](news/2026-10-05.md) — 🟠 Lista celor 113 furnizori de curs SUN publicată, cu o zi înainte de deschidere
 - [2026-10-02](news/2026-10-02.md) — 🔴 Sesiunea 2 SUN anunțată: înscriere curs din 6 oct, ora 10:00
 - [2026-09-30](news/2026-09-30.md) — 🟡 Impact SEE'26 s-a încheiat fără dată pentru Sesiunea 2 SUN
