@@ -5,11 +5,11 @@
 // Itemi noi se ADAUGĂ LA ÎNCEPUTUL listei. Dedup după url și subiect.
 window.RADAR_ITEMS = [
   {
-    "date": "2026-10-07", "sev": "rosu", "cat": "sun",
-    "title": "UPDATE: Înscrierile la cursul SUN Sesiunea 2 s-au deschis cu succes pe 6 oct — blocaj tehnic scurt, rezolvat în 25 min",
-    "summary": "Platforma funcțională după un scurt blocaj; doar 1.246 din 17.600 locuri ocupate până la prânz.",
-    "why": "Dacă nu te-ai înscris încă, fă-o acum — primul-venit-primul-servit, mai sunt locuri multe.",
-    "url": "https://startupcafe.ro/inscrierile-functioneaza-la-startup-nation-2026-ministerul-economiei-isi-prezinta-scuzele-pentru-eventualele-inconveniente-generate-de-problema-tehnica-temporara-la-platforma-facuta-107988", "source": "StartupCafe · MEDAT", "pub": "2026-10-06"
+    "date": "2026-10-09", "sev": "rosu", "cat": "sun",
+    "title": "UPDATE: După 24h, doar 14% din cele 17.600 de locuri la cursul SUN Sesiunea 2 ocupate (2.467 aplicanți)",
+    "summary": "La 24h de la deschidere (7 oct, 12:09): 2.467 aplicanți, 14% din locuri, 15.133 rămase.",
+    "why": "Ritm lejer — încă mult timp să te înscrii la curs, nu amâna complet.",
+    "url": "https://startupcafe.ro/startup-nation-2026-blocaj-temporar-pe-platforma-oficiala-la-debutul-sesiunii-de-inscrieri-la-cursurile-de-antreprenoriat-pentru-tinerii-care-vor-sa-se-faca-patroni-cu-ajutor-de-250-000-lei-107950", "source": "StartupCafe · MEDAT", "pub": "2026-10-07"
   },
   {
     "date": "2026-10-05", "sev": "portocaliu", "cat": "sun",
