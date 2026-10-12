@@ -20,6 +20,7 @@ Digest automat de știri despre finanțări nerambursabile și business pentru u
 
 ## 📰 Digesturi (cele mai noi sus)
 
+- [2026-10-12](news/2026-10-12.md) — 🟡 fără noutăți, nicio cifră nouă de înscrieri SUN găsită
 - [2026-10-09](news/2026-10-09.md) — 🔴 La 24h, doar 14% din locurile la cursul SUN ocupate (2.467/17.600)
 - [2026-10-07](news/2026-10-07.md) — 🔴 SUN deschis cu succes 6 oct, doar 1.246/17.600 înscriși până la prânz
 - [2026-10-05](news/2026-10-05.md) — 🟠 Lista celor 113 furnizori de curs SUN publicată, cu o zi înainte de deschidere
