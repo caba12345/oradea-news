@@ -20,6 +20,7 @@ Digest automat de știri despre finanțări nerambursabile și business pentru u
 
 ## 📰 Digesturi (cele mai noi sus)
 
+- [2026-10-19](news/2026-10-19.md) — 🟡 fără noutăți, ~17 zile rămase la înscrierea SUN
 - [2026-10-16](news/2026-10-16.md) — 🟡 fără noutăți, ADLO tot nepublicat, SUN fără cifre noi
 - [2026-10-14](news/2026-10-14.md) — 🟡 fără noutăți, nicio cifră nouă SUN, ADLO tot nepublicat
 - [2026-10-12](news/2026-10-12.md) — 🟡 fără noutăți, nicio cifră nouă de înscrieri SUN găsită
