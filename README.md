@@ -20,6 +20,7 @@ Digest automat de știri despre finanțări nerambursabile și business pentru u
 
 ## 📰 Digesturi (cele mai noi sus)
 
+- [2026-10-28](news/2026-10-28.md) — 🟡 fără noutăți, ~8 zile rămase la înscrierea SUN
 - [2026-10-26](news/2026-10-26.md) — 🟡 fără noutăți, ~10 zile rămase la înscrierea SUN
 - [2026-10-23](news/2026-10-23.md) — 🟡 fără noutăți, ~13 zile rămase la înscrierea SUN
 - [2026-10-21](news/2026-10-21.md) — 🟡 fără noutăți, ~15 zile rămase la înscrierea SUN
