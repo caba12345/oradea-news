@@ -1,7 +1,7 @@
 # 📡 Radar Finanțări Oradea
 
-🚨🚨 **ULTIMA ZI (estimativ) DE ÎNSCRIERE LA CURSUL SUN SESIUNEA 2 — dacă nu te-ai înscris pe minimis.imm.gov.ro, fă-o ACUM**
-Înscrierile s-au deschis pe 6 octombrie, ora 10:00; fereastra teoretică de 30 de zile expiră pe **~5 noiembrie** — azi (4 noiembrie) e ultima zi sigură. Important: acesta rămâne un calcul propriu, NU o dată publicată oficial de MEDAT — nu s-a găsit niciun comunicat care să confirme fie închiderea, fie o prelungire a înscrierilor. Ultima cifră oficială găsită rămâne 2.467 aplicanți / 14% din 17.600 locuri la 24h de la deschidere; o sursă secundară (nu s-a putut confirma oficial) indică ~3.985 înscriși / 13.615 locuri rămase pe 14 octombrie — deci locuri încă disponibile, dar termenul e aproape. Pași imediați: (1) intră pe minimis.imm.gov.ro și înscrie-te la curs ACUM (18-29 ani); (2) alege un furnizor din [lista celor 113 acreditați MEDAT](https://economie.gov.ro/start-up-nation-medat-publica-lista-furnizorilor-de-formare-profesionala/); (3) pregătește din timp ideea de afacere (IoT + platformă de date, CAEN 2651) pentru planul de afaceri de după curs. Detalii: [news/2026-10-02.md](news/2026-10-02.md), [news/2026-10-05.md](news/2026-10-05.md), [news/2026-10-07.md](news/2026-10-07.md), [news/2026-10-09.md](news/2026-10-09.md).
+🚨🚨 **ÎNSCRIEREA LA CURSUL SUN SESIUNEA 2 A FOST PRELUNGITĂ — termen nou 27 noiembrie 2026, ora 20:00**
+MEDAT a prelungit cu 3 săptămâni fereastra de înscriere la curs, de la estimarea inițială (~5 noiembrie) până pe **27 noiembrie 2026, ora 20:00**, exclusiv pe minimis.imm.gov.ro. Motiv oficial: interes scăzut — la 4 noiembrie, ora 12:00, mai erau **peste 11.400 locuri libere din 17.600** (~65%). Dacă nu te-ai înscris încă, mai ai timp sigur — nu mai e nevoie de grabă extremă, dar fă-o în următoarele zile. Pași imediați: (1) intră pe minimis.imm.gov.ro și înscrie-te la curs (18-29 ani); (2) alege un furnizor din [lista celor 113 acreditați MEDAT](https://economie.gov.ro/start-up-nation-medat-publica-lista-furnizorilor-de-formare-profesionala/); (3) pregătește din timp ideea de afacere (IoT + platformă de date, CAEN 2651) pentru planul de afaceri de după curs. Detalii: [news/2026-11-06.md](news/2026-11-06.md), [news/2026-10-02.md](news/2026-10-02.md), [news/2026-10-05.md](news/2026-10-05.md).
 
 Digest automat de știri despre finanțări nerambursabile și business pentru un startup în Oradea / regiunea Nord-Vest — rulează **luni, miercuri și vineri dimineața** (agent automat). Fiecare rulare adaugă un fișier în `news/` și actualizează **dashboard-ul** (`docs/index.html` + `docs/data.js`) și acest index.
 
@@ -16,10 +16,11 @@ Digest automat de știri despre finanțări nerambursabile și business pentru u
 
 ## 🚨 Alerte active
 
-- **Start-Up Nation Sesiunea 2 (Pilonul I)**: ÎNSCRIERI DESCHISE din **6 octombrie 2026, ora 10:00**, pe minimis.imm.gov.ro. Ultima cifră oficială confirmată rămâne 14% din 17.600 locuri ocupate (2.467 aplicanți) la 24h de la deschidere; o sursă secundară neconfirmată oficial indică ~3.985 înscriși pe 14 oct. Fereastra de 30 de zile expiră pe **~5 noiembrie** (calcul propriu, nicio dată oficială găsită) — azi (4 noiembrie) e ultima zi sigură, fără nicio prelungire sau închidere confirmată oficial. Exclusiv 18-29 ani (fără Pilonul II). Finanțarea de 250.000 lei se cere după absolvirea cursului. **Lista celor 113 furnizori de curs e deja publicată** (vezi link mai sus) — alege-l din timp. Dacă nu te-ai înscris încă, fă-o ACUM.
+- **Start-Up Nation Sesiunea 2 (Pilonul I)**: ÎNSCRIERI DESCHISE din **6 octombrie 2026, ora 10:00**, pe minimis.imm.gov.ro, acum PRELUNGITE până pe **27 noiembrie 2026, ora 20:00** (anunț MEDAT, 5 noiembrie — interes scăzut, peste 11.400 din 17.600 locuri încă libere la 4 noiembrie, ora 12:00). Exclusiv 18-29 ani (fără Pilonul II). Finanțarea de 250.000 lei se cere după absolvirea cursului, fără garanție automată. **Lista celor 113 furnizori de curs e deja publicată** (vezi link mai sus) — alege-l din timp. Dacă nu te-ai înscris încă, ai timp sigur, dar nu amâna complet.
 
 ## 📰 Digesturi (cele mai noi sus)
 
+- [2026-11-06](news/2026-11-06.md) — 🔴 SUN prelungit: înscriere curs până pe 27 noiembrie, 11.400+ locuri libere
 - [2026-11-04](news/2026-11-04.md) — 🟡 fără noutăți, azi e ultima zi estimată de înscriere la curs SUN
 - [2026-11-02](news/2026-11-02.md) — 🔴 ULTIMELE ~3 zile de înscriere la cursul SUN, fă-o ACUM dacă nu ai făcut-o
 - [2026-10-30](news/2026-10-30.md) — 🟡 fără noutăți, ~6 zile rămase la înscrierea SUN

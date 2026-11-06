@@ -5,6 +5,13 @@
 // Itemi noi se ADAUGĂ LA ÎNCEPUTUL listei. Dedup după url și subiect.
 window.RADAR_ITEMS = [
   {
+    "date": "2026-11-06", "sev": "rosu", "cat": "sun",
+    "title": "MEDAT prelungește cu 3 săptămâni înscrierea la cursul SUN Sesiunea 2 — termen nou 27 noiembrie, ora 20:00",
+    "summary": "Înscriere curs prelungită până pe 27 nov, ora 20:00; peste 11.400 locuri libere din 17.600 (4 nov).",
+    "why": "Mai ai timp sigur — dacă nu te-ai înscris la curs, fă-o acum.",
+    "url": "https://economie.gov.ro/termenul-de-inscriere-in-programul-start-up-nation-a-fost-prelungit/", "source": "economie.gov.ro · MEDAT", "pub": "2026-11-05"
+  },
+  {
     "date": "2026-10-09", "sev": "rosu", "cat": "sun",
     "title": "UPDATE: După 24h, doar 14% din cele 17.600 de locuri la cursul SUN Sesiunea 2 ocupate (2.467 aplicanți)",
     "summary": "La 24h de la deschidere (7 oct, 12:09): 2.467 aplicanți, 14% din locuri, 15.133 rămase.",
