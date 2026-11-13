@@ -20,6 +20,7 @@ Digest automat de știri despre finanțări nerambursabile și business pentru u
 
 ## 📰 Digesturi (cele mai noi sus)
 
+- [2026-11-13](news/2026-11-13.md) — 🟡 fără noutăți, ~14 zile rămase la înscrierea SUN
 - [2026-11-11](news/2026-11-11.md) — 🟡 fără noutăți, toate fronturile neschimbate față de 6-9 nov
 - [2026-11-09](news/2026-11-09.md) — 🟡 fără noutăți, toate fronturile neschimbate față de 6 nov
 - [2026-11-06](news/2026-11-06.md) — 🔴 SUN prelungit: înscriere curs până pe 27 noiembrie, 11.400+ locuri libere
